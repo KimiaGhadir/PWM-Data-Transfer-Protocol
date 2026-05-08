@@ -1,16 +1,16 @@
-# طراحی پروتکل ارتباطی مبتنی بر PWM
+# PWM-Based Communication Protocol Design
 
-## معرفی
-این پروژه یک پروتکل انتقال داده دیجیتال را تنها با استفاده از یک کانال PWM پیاده‌سازی می‌کند. داده‌ها با تغییر Duty Cycle رمزگذاری شده و بین دو دستگاه منتقل می‌شوند.
+## Introduction
+This project implements a digital data transmission protocol using only a single PWM channel. Data is encoded by varying the duty cycle and transmitted between two devices.
 
-## امکانات
-- رمزگذاری و رمزگشایی داده با Duty Cycle
-- طراحی ساختار فریم شامل Header، داده و Checksum
-- مکانیزم هم‌زمان‌سازی
-- مدیریت خطا
-- تحلیل نرخ انتقال داده
+## Features
+- Data encoding and decoding using duty cycle
+- Frame structure design including header, payload, and checksum
+- Synchronization mechanism
+- Error handling
+- Data rate analysis
 
-## ابزارها و تکنولوژی‌ها
+## Tools and Technologies
 - Embedded C
 - PWM
 - Proteus
